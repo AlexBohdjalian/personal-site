@@ -15,6 +15,11 @@
   top: 0;
 }
 
+.App-header-sections {
+  display: flex;
+  flex-direction: row;
+}
+
 .App-header-socials {
   display: flex;
   flex-direction: row;
