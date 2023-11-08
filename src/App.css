@@ -3,10 +3,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #282828;
   display: flex;
   padding: 2vmin 4vmin;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
