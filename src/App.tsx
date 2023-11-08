@@ -1,7 +1,10 @@
 import React from 'react';
 import './App.css';
-import LinkedInIcon from './components/social-icons/linkedin-button';
-import GitHubIcon from './components/social-icons/github-button';
+import CustomSocialIcon from './components/social-icon';
+
+
+const LINKEDIN_URL = "www.linkedin.com/in/alex-bohdjalian"
+const GITHUB_URL = "www.github.com/AlexBohdjalian"
 
 function App() {
   return (
@@ -10,8 +13,8 @@ function App() {
         <p>Some Text</p>
         <p>More Text</p>
         <div className="App-socials">
-          <LinkedInIcon />
-          <GitHubIcon />
+          <CustomSocialIcon url={LINKEDIN_URL} />
+          <CustomSocialIcon url={GITHUB_URL} />
         </div>
       </header>
     </div>
