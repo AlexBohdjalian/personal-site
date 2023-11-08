@@ -1,0 +1,14 @@
+.custom-social-icon-container {
+  background-color: white;
+  border-radius: 100%;
+  margin: 0.2rem;
+  padding: 0.12rem;
+  color: darken(var(--darkblue), 10%);
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: scale(0.90);
+  }
+}
