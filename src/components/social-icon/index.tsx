@@ -10,7 +10,6 @@ interface PTypes {
 const CustomSocialIcon = (props: PTypes) => {
   return (
     <div className={props.name + " custom-social-icon-container"}>
-      {/* TODO: add hover text */}
       <SocialIcon
         url={props.url}
         target="_blank"
