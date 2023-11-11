@@ -1,0 +1,55 @@
+/* Set the values for width and height */
+:root {
+  --width: 70px;
+  --height: 35px;
+}
+
+/* Styles for .half-circle */
+.half-circle {
+  background-color: lightseagreen;
+  display: inline-block;
+  /* margin: 10px; */
+  color: white;
+  text-align: center;
+  vertical-align: top;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Styles for .half-circle.horizontal */
+.half-circle.horizontal {
+  width: var(--width);
+  height: var(--height);
+  line-height: var(--height);
+}
+
+.half-circle.horizontal.top {
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+}
+
+.half-circle.horizontal.bottom {
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+
+/* Styles for .half-circle.vertical */
+.half-circle.vertical {
+  width: var(--height);
+  height: var(--width);
+  line-height: var(--width);
+  text-orientation: upright;
+}
+
+.half-circle.vertical.right {
+  border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+}
+
+.half-circle.vertical.left {
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+}
+
+/* Styles for .rotate */
+.rotate {
+  display: inline-block;
+  height: 100%;
+  transform: rotate(90deg);
+}
