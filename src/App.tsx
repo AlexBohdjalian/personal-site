@@ -5,10 +5,21 @@ import HeaderSection from './components/header-section';
 import AppSection from './components/app-section';
 
 
-const LINKEDIN_URL = "https://linkedin.com/in/alex-bohdjalian"
-const GITHUB_URL = "https://github.com/AlexBohdjalian"
+interface UHTypes {
+  header: string;
+}
 
 function App() {
+  function UnderlineHeader({ header }: UHTypes) {
+    return (
+      <h2>
+        <u>
+          {header}
+        </u>
+      </h2>
+    )
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -22,36 +33,28 @@ function App() {
       </header>
       <body>
         <AppSection>
-          <h2>
-            Bio
-          </h2>
-          <p>
+          <UnderlineHeader header="Bio" />
+          <body>
             Stuff
-          </p>
+          </body>
         </AppSection>
         <AppSection nextCol circle>
-          <h2>
-            Other Section
-          </h2>
-          <p>
+          <UnderlineHeader header="Other Section" />
+          <body>
             Some content for inside the section. Bleep Bloop
-          </p>
+          </body>
         </AppSection>
         <AppSection circle>
-          <h2>
-            Another Section
-          </h2>
-          <p>
+          <UnderlineHeader header="Another Section" />
+          <body>
             Some content for inside the section. Bleep Bloop
-          </p>
+          </body>
         </AppSection>
         <AppSection nextCol circle>
-          <h2>
-            Final Section
-          </h2>
-          <p>
+          <UnderlineHeader header="Final Section" />
+          <body>
             Some content for inside the section. Bleep Bloop
-          </p>
+          </body>
         </AppSection>
       </body>
     </div>
