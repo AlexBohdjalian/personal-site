@@ -8,10 +8,6 @@ import AppSection from './components/app-section';
 const LINKEDIN_URL = "https://linkedin.com/in/alex-bohdjalian"
 const GITHUB_URL = "https://github.com/AlexBohdjalian"
 
-interface DASTypes {
-  children?: React.ReactNode
-}
-
 function App() {
   return (
     <div className="App">
