@@ -1,7 +1,4 @@
-import React from 'react';
 import './App.css';
-import CustomSocialIcon from './components/social-icon';
-import HeaderSection from './components/header-section';
 import AppSection from './components/app-section';
 
 
@@ -22,15 +19,6 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="App-header-sections">
-          <HeaderSection text="Something" url="" />
-        </div>
-        <div className="App-header-socials">
-          <CustomSocialIcon name="linkedin" url={LINKEDIN_URL} />
-          <CustomSocialIcon name="github" url={GITHUB_URL} />
-        </div>
-      </header>
       <body>
         <AppSection>
           <UnderlineHeader header="Bio" />
