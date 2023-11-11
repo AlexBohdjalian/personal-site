@@ -12,14 +12,14 @@ const AppSection = (props: PTypes) => {
     <div
       className='app-section'
       style={{
-        backgroundColor: props.nextCol ? 'purple' : 'white',
+        backgroundColor: props.nextCol ? 'rgb(16,46,106)' : 'white',
         color: props.nextCol ? 'white' : 'black',
       }}
     >
       {props.circle &&
         <div
           className='half-circle horizontal bottom'
-          style={{ backgroundColor: props.nextCol ? 'white' : 'purple' }}
+          style={{ backgroundColor: props.nextCol ? 'white' : 'rgb(16,46,106)' }}
         />
       }
       {props.children}

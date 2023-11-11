@@ -1,5 +1,5 @@
 .custom-social-icon-container {
-  background-color: white;
+  background-color: black;
   border-radius: 100%;
   margin: 0.2rem;
   padding: 0.12rem;
@@ -7,6 +7,9 @@
   justify-content: center;
   align-items: center;
   transition: transform 0.5s;
+
+  /* Circular Shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 
   &:hover {
     transform: scale(0.90);

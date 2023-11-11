@@ -2,25 +2,6 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: #282828;
-  display: flex;
-  padding: 2vmin 4vmin;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  position: sticky;
-  top: 0;
-}
-
-.App-header-sections {
-  display: flex;
-  flex-direction: row;
-}
-
-.App-header-socials {
-  display: flex;
-  flex-direction: row;
+.section-content {
+  padding: 0 2rem;
 }
