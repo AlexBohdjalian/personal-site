@@ -10,10 +10,10 @@ interface PTypes {
 const AppSection = (props: PTypes) => {
   return (
     <div
+      className='app-section'
       style={{
         backgroundColor: props.nextCol ? 'purple' : 'white',
         color: props.nextCol ? 'white' : 'black',
-        paddingBottom: '1rem'
       }}
     >
       {props.circle &&

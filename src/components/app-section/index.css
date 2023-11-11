@@ -4,12 +4,13 @@
   --height: 35px;
 }
 
+.app-section {
+  padding-bottom: 1rem;
+}
+
 /* Styles for .half-circle */
 .half-circle {
-  background-color: lightseagreen;
   display: inline-block;
-  /* margin: 10px; */
-  color: white;
   text-align: center;
   vertical-align: top;
   overflow: hidden;
