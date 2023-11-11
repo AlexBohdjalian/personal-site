@@ -4,6 +4,7 @@ import './index.css';
 interface PTypes {
   name: string
   url: string
+  title?: string
 }
 
 const CustomSocialIcon = (props: PTypes) => {
@@ -14,6 +15,7 @@ const CustomSocialIcon = (props: PTypes) => {
         url={props.url}
         target="_blank"
         rel="noopener noreferrer"
+        title={props.title ?? 'Opens In New Tab'}
       />
     </div>
   );

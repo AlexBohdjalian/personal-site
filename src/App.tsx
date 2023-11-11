@@ -12,15 +12,21 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="App-header-sections">
-          <HeaderSection text="About Me" url="" />
-          <HeaderSection text="Portfolio" url="" />
-          <HeaderSection text="Contact Me" url="" />
+          <HeaderSection text="Something" url="" />
         </div>
         <div className="App-header-socials">
           <CustomSocialIcon name="linkedin" url={LINKEDIN_URL} />
           <CustomSocialIcon name="github" url={GITHUB_URL} />
         </div>
       </header>
+      <body>
+        <h2>
+          Bio
+        </h2>
+        <body>
+          Bleep bloop
+        </body>
+      </body>
     </div>
   );
 }
